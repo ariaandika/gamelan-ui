@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="./build.css">
+        <style>
+        ::-webkit-scrollbar {
+          display: none;
+        }
+
+        ::-webkit-scrollbar {
+          width: 5px;
+          height: 8px;
+          background-color: #aaa;
+        }
+
+        ::-webkit-scrollbar-thumb {
+          background: #000;
+        }
+        </style>
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">
+            <section class="flex h-screen">
+
+                <aside class="p-2 bg-[#F8F8F8]" id="sidebar">
+                    <img class="w-full" src="./icon/sekarlogoremovebg 1.png" alt="">
+                    <div class="border-t-black border-t-4 my-4"> </div>
+                    <img class="w-full hover:bg-gray-300 rounded-full" src="./icon/material-symbols-light_home-outline.png" alt="">
+                </aside>
+
+
+                <section class="w-full h-screen flex flex-col bg-red-600">
+                    <aside class="bg-[#2B77A4] text-white p-4 flex gap-4" id="sidebar">
+                        <img class="" src="./icon/ic_baseline-loop.png" alt="">
+                        <img class="" src="./icon/ic_outline-speed.png" alt="">
+                    </aside>
+
+                    <section class="grid grid-cols-2 my-auto border-b-black flex-grow">
+                        <div class="relative border-r-neutral-100 border-r-[20px] border-solid">
+                            <section class="bg-[#f0f0f0] relative h-full flex flex-col p-4 gap-4 overflow-x-hidden overflow-y-scroll">
+                                <div class="rounded-lg bg-[#D9D9D9] hover:bg-[#C9C9C9] active:bg-[#A9A9A9] transition-colors p-8 hover:cursor-pointer">Woo</div>
+                                <div class="rounded-lg bg-[#D9D9D9] hover:bg-[#C9C9C9] active:bg-[#A9A9A9] transition-colors p-8 hover:cursor-pointer">Woo</div>
+                                <div class="rounded-lg bg-[#D9D9D9] hover:bg-[#C9C9C9] active:bg-[#A9A9A9] transition-colors p-8 hover:cursor-pointer">Woo</div>
+                                <div class="rounded-lg bg-[#D9D9D9] hover:bg-[#C9C9C9] active:bg-[#A9A9A9] transition-colors p-8 hover:cursor-pointer">Woo</div>
+                            </section>
+                            <div class="bg-[#2B77A4] absolute bottom-0 w-full p-8 flex">
+                                <div class="bg-white flex-grow">&ThickSpace;</div>
+                                <div class="bg-[#A4F390] absolute w-64" style:width="{value}px">&ThickSpace;</div>
+                            </div>
+                        </div>
+
+                        <section class="bg-white p-8">
+                            <div class="bg-[#D9D9D9] rounded-lg h-full p-4 flex flex-col">
+                                <div class="bg-[#f2f2f2] rounded-lg flex-grow p-2 mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, impedit nulla reprehenderit voluptatibus soluta repellat mollitia maiores fugiat eos necessitatibus voluptate, eligendi, amet cumque alias accusantium odio ullam est quibusdam?</div>
+                                <div class="flex justify-between">
+                                    <img src="./icon/carbon_previous-outline.png" alt="">
+                                    <img src="./icon/carbon_next-outline.png" alt="">
+                                </div>
+                            </div>
+                        </section>
+
+                    </section>
+                </section>
+
+
+            </section>
+        </div>
+	</body>
+</html>
